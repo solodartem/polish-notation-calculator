@@ -1,0 +1,5 @@
+com.asolod.parser.operations.SingleOperationInputTemplate
+com.asolod.parser.operations.DigitInputTemplate
+com.asolod.parser.operations.DigitDigitInputTemplate
+com.asolod.parser.operations.DigitOperationInputTemplate
+com.asolod.parser.operations.DigitDigitOperationInputTemplate

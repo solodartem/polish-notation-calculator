@@ -1,0 +1,5 @@
+com.asolod.operation.PlusOperation
+com.asolod.operation.MinusOperation
+com.asolod.operation.MutliplyOperation
+com.asolod.operation.DivideOperation
+com.asolod.operation.QuiteOperation
