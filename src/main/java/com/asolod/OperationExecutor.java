@@ -1,6 +1,7 @@
 package com.asolod;
 
 import com.asolod.operation.Operation;
+import com.asolod.operation.QuiteOperation;
 import com.asolod.operation.result.OperationError;
 import com.asolod.operation.result.OperationResult;
 
@@ -32,6 +33,10 @@ public class OperationExecutor<T extends Number> {
     }
 
     public OperationResult runOperation(Stack<T> stack) {
+        if (this.operation instanceof QuiteOperation) {
+            System.exit(0);
+        }
+
         // there are no calculations, just adding parameter to the stack
         if (this.operation == null) {
             if (this.operand1 != null) {
